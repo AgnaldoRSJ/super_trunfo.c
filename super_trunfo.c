@@ -2,20 +2,23 @@
 
    int main(){
 
+
+ printf("Super Trunfo\n \n");
+
     int turisticos;
-    char carta, estado, codigo, cidade [50];
+    char estado[50], codigo[50], cidade [50];
     float populacao, area, pib;
 
     printf("Carta:01 \n");
 
     printf("Estado:");
-    scanf("%s", &estado);
+    scanf("%s", estado);
 
     printf("Código:");
-    scanf("%s", &codigo);
+    scanf("%s", codigo);
 
     printf("Nome da Cidade:");
-    scanf("%s", &cidade);
+    scanf("%s", cidade);
 
     printf("População:");
     scanf("%f", &populacao);
@@ -29,7 +32,8 @@
     printf("Números de pontos Turisticos:");
     scanf("%d", &turisticos);
 
-       
+    printf("Carta:01\n Estado:%s\n Codigo:%s\n Cidade:%s\n", estado, codigo, cidade);
+     printf("População:%f\n Área:%f\n PIB:%f\n Númeeros de pontos turisticos:%d\n", populacao, area, pib, turisticos);
 
 
 
