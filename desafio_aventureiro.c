@@ -43,7 +43,9 @@
     printf("Números de pontos Turisticos:");
     scanf("%d", &turisticos);
 
+   // Calcula a densidade populacional
    densidade = (float) populacao / area;
+   // Calcula o PIB per capita
    percapita =(float) pib / populacao;
 
     // vai ler todas as  informações inseridas acima 
@@ -83,8 +85,10 @@
     // quantidade de pontos turisticos da cidade escolhida
     printf("Números de pontos Turisticos:");
     scanf("%d", &turisticos);
-    
+
+    // Calcula a densidade populacional
     densidade = (float) populacao / area;
+    // Calcula o PIB per capita
     percapita = (float) pib / populacao;
 
     // vai ler todas as informações inseridas acima
